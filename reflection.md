@@ -12,7 +12,13 @@
 
 ### Accessibility
 
-Enter your reflections on this section here.
+* The following lab assignment was pretty easy, especially considering that we went over all the material on the week 2. I was able to finish everything on my own
+
+* These exercises were pretty helpful on reminding me to use labels, as well as the usage of the Wave extention
+
+* No, everything was explained very well since the scope of the lab assignment was pretty small
+
+* I think this weeks topic kind of wraps more around the ideas of accessibility rather than concrete implementation, but I think the homework assignment does a good job of allowing us to practice this weeks material anyways
 
 ### CSS
 
