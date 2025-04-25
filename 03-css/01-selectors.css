@@ -10,12 +10,40 @@
 
 /* Use attribute selectors for the first part of the exercise */
 
-li[class] {
-  color: var(--red);
+li[class=dog],
+li[class=hedgehog]{
+  color: var(--magenta);
+}
+li[class="cat dog parrot"]{
+  color: var(--royalblue);
+}
+li[class=parrot]{
+  color: var(--green);
+}
+
+li[id=cat]{
+  color: var(--teal);
+}
+
+li[class=donkey]{
+  color: var(--royalblue);
 }
 
 /* Use descendant, child, and sibling selectors for the second part */
 
-section li {
+section li.first {
+  color: var(--green);
+}
+section li.second {
+  color: var(--magenta);
+}
+section li.second + li {
+  color: var(--royalblue);
+}
+section li.second + li + li{
+  color: var(--magenta);
+}
+
+section div li{
   color: var(--green);
 }
