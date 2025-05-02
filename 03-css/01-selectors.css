@@ -12,7 +12,7 @@
 
 li[class=dog],
 li[class=hedgehog]{
-  color: var(--magenta);
+  color: var(--darkmagenta);
 }
 li[class="cat dog parrot"]{
   color: var(--royalblue);
@@ -35,13 +35,13 @@ section li.first {
   color: var(--green);
 }
 section li.second {
-  color: var(--magenta);
+  color: var(--darkmagenta);
 }
 section li.second + li {
   color: var(--royalblue);
 }
 section li.second + li + li{
-  color: var(--magenta);
+  color: var(--darkmagenta);
 }
 
 section div li{
