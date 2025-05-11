@@ -3,21 +3,71 @@
 }
 
 /* Flex Container 1 */
+.flex-container.flex-container-1 {
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
 
 /* Flex Container 2 */
 
+.flex-container.flex-container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
 /* Flex Container 3 */
 
+.flex-container.flex-container-3 {
+  display: flex;
+  height: 400px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items:flex-end;
+}
 /* use height: 400px; on the container */
 
 /* Flex Container 4 */
 
+.flex-container.flex-container-4 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  justify-content: space-evenly;
+}
 /* Flex Container 5 */
 
+.flex-container.flex-container-5 {
+  display: flex;
+  align-items:center;
+  flex-wrap: nowrap;
+}
+.flex-container.flex-container-5 > .item1,
+.flex-container.flex-container-5 > .item3,
+.flex-container.flex-container-5 > .item6
+{
+  padding-bottom: 150px;
+}
+
+.flex-container.flex-container-5 > .item2,
+.flex-container.flex-container-5 > .item8
+{
+  padding-bottom: 200px;
+}
 /* Flex Container 6 */
 
+/* Frankly, this was here when I downloaded the css and I don't think it should be here but here it is */
 .flex-container-6 .flex-item {
   width: 400px;
+}
+
+.flex-container.flex-container-6 {
+  display: flex;
+  height: 300px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  /* width:fit-content */
 }
 
 /* use height: 300px; on the container */
