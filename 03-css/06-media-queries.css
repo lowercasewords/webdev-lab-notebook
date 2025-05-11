@@ -4,3 +4,47 @@
     color: var(--white);
   }
 }
+@media (max-width: 1024px) and (min-width: 700px) {
+  body {
+    background: var(--orange);
+    color: var(--black);
+  }
+}
+@media (max-width: 700px) and (min-width: 512px) {
+  body {
+    background: var(--purple);
+    color: var(--white);
+  }
+  header ul {
+    flex-direction: column;
+  }
+}
+body {
+  margin: 0px;
+}
+
+header * {
+  background-color: black;
+  height: 50px;
+  margin: 0px 0px 0px 0px;
+  font-size: 100%;
+  color: var(--white);
+  text-decoration: none;
+}
+nav {
+  height: fit-content;
+}
+header ul {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  height: fit-content;
+}
+header li {
+  display: inline-block;
+  margin: 10px 30px 10px 20px;
+  height: fit-content;
+}
+section {
+  padding: 10px;
+  /* margin: 10px; */
+}
