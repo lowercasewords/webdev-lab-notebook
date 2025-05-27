@@ -19,7 +19,7 @@ body {
 }
 
 .section {
-  float:left;
+  float: left;
   /* display: inline-block; */
   width: 75%;
   height: 300px;
